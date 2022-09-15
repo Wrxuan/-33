@@ -19,7 +19,7 @@ const routes = [
       },
       {
         path: '/qa',
-        component: () => import(/* webpackChunkName:"base" */'@/views/QA')
+        component: () => import(/* webpackChunkName:"base" */ '@/views/QA')
       },
       {
         path: '/profile',
@@ -30,6 +30,10 @@ const routes = [
   {
     path: '/login',
     component: () => import('@/views/Login')
+  },
+  {
+    path: '/search',
+    component: () => import(/* webpackChunkName:"Search" */ '@/views/Search')
   }
 ]
 

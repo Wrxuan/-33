@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <transition name="van-slide-left" mode="out-in">
     <router-view></router-view>
-  </div>
+  </transition>
 </template>
 
 <script>
